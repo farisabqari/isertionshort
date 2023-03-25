@@ -16,7 +16,7 @@ void input() {
 		{
 			cout << "\nArray yang anda masukkan maksimal 20 elemen.\n";
 		}
-	}
+}
 	cout << endl;
 	cout << "======================" << endl;
 	cout << "Masukkan Element Array" << endl;
@@ -34,7 +34,7 @@ void insertionsort() {
 	int j;
 
 	for (int i = 1; i < n; i++) {
-
+		
 		temp = arr[i];
 
 		j = i - 1;

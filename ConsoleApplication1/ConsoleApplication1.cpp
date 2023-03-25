@@ -28,6 +28,7 @@ void input() {
 		cin >> arr[i];
 	}
 }
+
 void insertionsort() {
 	int temp;
 	int j;
@@ -52,7 +53,6 @@ void insertionsort() {
 		}
 	}
 }
-
 void display() {
 	cout << "\n================================" << endl;
 	cout << "Element Array Yang Telah Tersusun" << endl;
